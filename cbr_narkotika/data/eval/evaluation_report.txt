@@ -1,0 +1,37 @@
+=================================================================
+LAPORAN EVALUASI MODEL CBR
+Domain   : Pidana Khusus Narkotika & Psikotropika
+Metode   : TF-IDF (1-2gram, 3000 fitur) + LinearSVC
+Dataset  : 35 putusan pengadilan
+=================================================================
+
+── RETRIEVAL METRICS (k=5) ──
+  Hit@5       : 1.0000
+  Precision   : 0.7714
+  Recall      : 0.8544
+  F1          : 0.7960
+
+── KLASIFIKASI SVM ──
+  Accuracy  : 0.8571
+  Precision : 0.8561
+  Recall    : 0.8571
+  F1-Score  : 0.8559
+  CV (5fold): 0.7143 ± 0.1278
+
+── PER-CLASS REPORT ──
+                      precision    recall  f1-score   support
+
+penjara seumur hidup       0.87      0.91      0.89        22
+      pidana penjara       0.83      0.77      0.80        13
+
+            accuracy                           0.86        35
+           macro avg       0.85      0.84      0.84        35
+        weighted avg       0.86      0.86      0.86        35
+
+── REKOMENDASI ──
+  1. Tambah data: kumpulkan ≥100 putusan nyata dari Direktori MA RI
+  2. Gunakan class_weight="balanced" untuk mengatasi imbalance
+  3. Sertakan berat barang bukti sebagai fitur numerik
+  4. Coba IndoBERT embedding untuk query pendek
+  5. Tambahkan threshold rejection (cosine-sim < 0.15)
+=================================================================

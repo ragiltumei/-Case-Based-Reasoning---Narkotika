@@ -1,0 +1,2 @@
+﻿method,total_predictions,correct,demo_accuracy,svm_accuracy,svm_precision,svm_recall,svm_f1,cv_accuracy_mean,cv_accuracy_std
+TF-IDF + LinearSVC,5,3,0.6,0.8571428571428571,0.8561076604554866,0.8571428571428571,0.8558730158730159,0.7142857142857142,0.12777531299998796

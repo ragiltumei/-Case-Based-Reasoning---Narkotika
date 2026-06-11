@@ -1,0 +1,216 @@
+[
+  {
+    "query_id": "Q001",
+    "query_text": "terdakwa memiliki sabu-sabu seberat 50 gram tanpa izin disita polisi",
+    "expected_label": "pidana penjara",
+    "ground_truth_ids": [
+      1,
+      30,
+      34
+    ],
+    "top_k": [
+      22,
+      10,
+      34,
+      1,
+      30
+    ],
+    "similarities": [
+      0.31482215994718377,
+      0.2739513384326558,
+      0.2738260326225418,
+      0.27146329745969733,
+      0.27071834207752266
+    ],
+    "predicted_label": "penjara seumur hidup",
+    "hit": 1,
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1": 0.75
+  },
+  {
+    "query_id": "Q002",
+    "query_text": "terdakwa menyimpan ganja seberat 2 kilogram di rumah pasal 112 narkotika golongan I",
+    "expected_label": "penjara seumur hidup",
+    "ground_truth_ids": [
+      2,
+      11,
+      14,
+      25,
+      26
+    ],
+    "top_k": [
+      25,
+      23,
+      26,
+      2,
+      7
+    ],
+    "similarities": [
+      0.30490185652884283,
+      0.30068843527627964,
+      0.26615921152670613,
+      0.25804399233814085,
+      0.25631934526108413
+    ],
+    "predicted_label": "penjara seumur hidup",
+    "hit": 1,
+    "precision": 0.6,
+    "recall": 0.6,
+    "f1": 0.6
+  },
+  {
+    "query_id": "Q003",
+    "query_text": "terdakwa menjadi perantara jual beli heroin diancam pasal 114 narkotika",
+    "expected_label": "pidana penjara",
+    "ground_truth_ids": [
+      15,
+      27,
+      29
+    ],
+    "top_k": [
+      8,
+      15,
+      29,
+      33,
+      13
+    ],
+    "similarities": [
+      0.2976036384078919,
+      0.29719295119687533,
+      0.2944057169002699,
+      0.2302651346554691,
+      0.23018237267445538
+    ],
+    "predicted_label": "penjara seumur hidup",
+    "hit": 1,
+    "precision": 0.4,
+    "recall": 0.6667,
+    "f1": 0.5
+  },
+  {
+    "query_id": "Q004",
+    "query_text": "terdakwa menguasai ekstasi MDMA lebih dari 5 gram bukan tanaman pasal 112 ayat 2",
+    "expected_label": "penjara seumur hidup",
+    "ground_truth_ids": [
+      18,
+      19,
+      21,
+      24
+    ],
+    "top_k": [
+      19,
+      18,
+      24,
+      21,
+      16
+    ],
+    "similarities": [
+      0.24832767596814145,
+      0.2333480524668389,
+      0.22846562935808534,
+      0.2263352993016576,
+      0.22233438441914227
+    ],
+    "predicted_label": "penjara seumur hidup",
+    "hit": 1,
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1": 0.8889
+  },
+  {
+    "query_id": "Q005",
+    "query_text": "terdakwa memiliki kokain bukan tanaman tanpa hak barang bukti disita kepolisian",
+    "expected_label": "penjara seumur hidup",
+    "ground_truth_ids": [
+      5,
+      6,
+      12,
+      20,
+      33
+    ],
+    "top_k": [
+      6,
+      5,
+      12,
+      33,
+      20
+    ],
+    "similarities": [
+      0.2657118300963417,
+      0.20818717929039976,
+      0.1977383008465975,
+      0.19704044690743786,
+      0.19403411318735417
+    ],
+    "predicted_label": "penjara seumur hidup",
+    "hit": 1,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  {
+    "query_id": "Q006",
+    "query_text": "permufakatan jahat jual beli narkotika pasal 132 bersama-sama",
+    "expected_label": "pidana penjara",
+    "ground_truth_ids": [
+      4,
+      11,
+      12,
+      16,
+      19
+    ],
+    "top_k": [
+      12,
+      11,
+      4,
+      16,
+      19
+    ],
+    "similarities": [
+      0.24013964853493597,
+      0.2384066916332359,
+      0.23001428932529908,
+      0.22446583567418277,
+      0.21968806168931612
+    ],
+    "predicted_label": "pidana penjara",
+    "hit": 1,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  {
+    "query_id": "Q007",
+    "query_text": "terdakwa menanam ganja tanaman narkotika golongan I pasal 111",
+    "expected_label": "pidana penjara",
+    "ground_truth_ids": [
+      5,
+      14,
+      17,
+      27,
+      30,
+      32,
+      34
+    ],
+    "top_k": [
+      14,
+      32,
+      17,
+      27,
+      5
+    ],
+    "similarities": [
+      0.30303057050704324,
+      0.29747677141710055,
+      0.28749550522244927,
+      0.25353145385823245,
+      0.24188159455840547
+    ],
+    "predicted_label": "pidana penjara",
+    "hit": 1,
+    "precision": 1.0,
+    "recall": 0.7143,
+    "f1": 0.8333
+  }
+]
