@@ -1,4 +1,13 @@
-# 🔍 CBR — Sistem Analisis Putusan Pengadilan Narkotika
+##  Anggota Tim
+
+| Nama                      | NIM               |
+|------                     |-----              |
+| [Erdy Muhammad Fakhri]    | [202310370311071] |
+| [Ragil Tumei Wijayanto]   | [202310370311240] |
+
+[Penalaran Komputer D ]
+
+#  CBR — Sistem Analisis Putusan Pengadilan Narkotika
 
 > **Case-Based Reasoning for Indonesian Narcotics Court Decision Analysis**
 
@@ -13,7 +22,7 @@
 
 ---
 
-## 📋 Deskripsi Proyek
+##  Deskripsi Proyek
 
 Sistem **Case-Based Reasoning (CBR)** berbasis Python untuk mendukung analisis putusan pengadilan **Pidana Khusus Narkotika & Psikotropika**. Data putusan bersumber dari Direktori Putusan Mahkamah Agung Republik Indonesia.
 
@@ -29,7 +38,7 @@ Sistem mengimplementasikan seluruh siklus CBR:
 
 ---
 
-## 📁 Struktur Repository
+##  Struktur Repository
 
 ```
 cbr_narkotika/
@@ -80,7 +89,7 @@ cbr_narkotika/
 
 ---
 
-## ⚙️ Instalasi
+##  Instalasi
 
 ### Prasyarat
 - Python **3.9+**
@@ -113,7 +122,7 @@ python -c "import pandas, sklearn, numpy, matplotlib, scipy; print('✓ Semua pa
 
 ---
 
-## 🚀 Cara Menjalankan Pipeline
+##  Cara Menjalankan Pipeline
 
 ### Opsi A — Jupyter Notebook *(Direkomendasikan)*
 
@@ -155,7 +164,7 @@ python 05_evaluation.py
 
 ---
 
-## 💡 Contoh Penggunaan (Live Retrieval)
+##  Contoh Penggunaan (Live Retrieval)
 
 ```python
 import pickle, scipy.sparse as sp, numpy as np, pandas as pd
@@ -211,7 +220,7 @@ Rank  Case_ID   Similarity   Terdakwa               Narkoba        Label Putusan
 
 ---
 
-## 📊 Hasil Evaluasi
+##  Hasil Evaluasi
 
 | Metrik                | Nilai         | Keterangan                                            |
 |--------               |-------        |------------                                           |
@@ -227,7 +236,7 @@ Rank  Case_ID   Similarity   Terdakwa               Narkoba        Label Putusan
 
 ---
 
-## 🗂️ Sumber Data
+##  Sumber Data
 
 Dalam implementasi nyata, dokumen putusan diunduh dari:
 
@@ -239,7 +248,7 @@ Pada repositori ini, `generate_data.py` menghasilkan **35 dokumen sintetis** yan
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Komponen              | Library / Version                 |
 |----------             |-------------------                |
@@ -255,18 +264,5 @@ Pada repositori ini, `generate_data.py` menghasilkan **35 dokumen sintetis** yan
 
 ---
 
-## 👥 Anggota Tim
 
-| Nama                      | NIM               |
-|------                     |-----              |
-| [Erdy Muhammad Fakhri]    | [202310370311071] |
-| [Ragil Tumei Wijayanto]   | [202310370311240] |
 
-[Penalaran Komputer D ]
-
----
-
-## 📄 Lisensi
-
-Proyek ini dibuat untuk keperluan tugas akademik.  
-Data putusan pengadilan bersumber dari domain publik (Direktori MA RI).
