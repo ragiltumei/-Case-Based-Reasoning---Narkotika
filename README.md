@@ -1,3 +1,11 @@
+##  Anggota Tim
+
+| Nama                      | NIM               |
+|------                     |-----              |
+| [Erdy Muhammad Fakhri]    | [202310370311071] |
+| [Ragil Tumei Wijayanto]   | [202310370311240] |
+
+[Penalaran Komputer D ]
 #  CBR — Sistem Analisis Putusan Pengadilan Narkotika
 
 > **Case-Based Reasoning for Indonesian Narcotics Court Decision Analysis**
@@ -255,19 +263,7 @@ Pada repositori ini, `generate_data.py` menghasilkan **35 dokumen sintetis** yan
 
 ---
 
-##  Anggota Tim
 
-| Nama                      | NIM               |
-|------                     |-----              |
-| [Erdy Muhammad Fakhri]    | [202310370311071] |
-| [Ragil Tumei Wijayanto]   | [202310370311240] |
 
-[Penalaran Komputer D ]
 
----
-
-##  Lisensi
-
-Proyek ini dibuat untuk keperluan tugas akademik.  
-Data putusan pengadilan bersumber dari domain publik (Direktori MA RI).
 
